@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link href="./font/fontawe/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <div class="wrap_header">
+
+            <div class="header">
+                <div class="head-top">
+                    <div class="hd-top-left">
+                      <div class="logo">
+    
+                        <img src="image/logo.jpg" alt="">
+                      </div>
+                      <div class="search">
+                  
+                        <input class="search-input" type="text" placeholder="Nhập tên điện thoại, máy tính, phụ kiện... cần tìm" autocomplete="off" maxlength="50">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      
+                      
+                        <div class="search-history">
+                            <b>Xu hướng tìm kiếm</b>
+                            
+                            <ul class="xuhuong">
+                              <li>
+                                <a href="trend">iphone13</a>
+                                <a href="trend">xh2</a>
+                                <a href="trend">3</a>
+                                <a href="trend">4</a>
+                                <a href="trend">5</a>
+                              </li>
+                            </ul>
+                            
+                        </div>  
+                     </div>
+                    </div>
+                    <div class="hd-top-right">
+                      <a href="">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <p>Thông tin hay</p>
+                      </a>
+                      <a href="">
+                        <i class="fa-solid fa-droplet"></i>
+                        <p>Thu hộ</p>
+                      </a>
+                      <a href="">
+    
+                        <i class="fa-solid fa-cart-arrow-down"><b id="numprod">0</b></i>
+                        <p>Giỏ hàng</p>
+                      </a>
+                    </div>
+                </div>
+                <div class="head-bottom">
+                  <ul>
+                    
+                  </ul>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="local">
+                <h2><a href="/index.html">Trang chủ</a> / <a href="">Điện thoại</a></h2>
+            </div>
+            <div class="">
+                <h4>Sản phẩm trong giỏ hàng</h4>
+            </div>
+            <div class="cart_block">
+                
+            </div>
+            <div class="pay">
+                <div class="pay_right">
+
+                    <div class="total cant">
+                        <p >Tổng tiền:</p>
+                        <p class="tongtien">0</p>
+                    </div>
+                    <div class="discount cant">
+                        <p>Giảm giá:</p>
+                        <p>0</p>
+                    </div>
+                    <div class="thanhtoan cant">
+                        <p>Cần thanh toán:</p>
+                        <p id="total">0</p>
+    
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="infor_custumer">
+              <div class="info-top">
+                <input class="ttin1" id="name" type="text" placeholder="Nhập họ và tên">
+                <input class="ttin1" id="phone" type="text" placeholder="Nhập số điện thoại">
+              </div>
+              <div class="info-bottom">
+                <input class="mail ttin1" id="email"type="text" placeholder="Nhập email">
+              </div>
+              <div class="dhang">
+                <Button class="dathang" onclick="ordernow()">Đặt hàng</Button>
+              </div>
+            </div>
+            
+            
+
+ 
+        </div>
+        <div class="footer">
+    
+        </div>
+    </div>
+    <script src="./js/api-category.js"></script>
+   <script src="./js/product_cart.js"></script>
+   <script src="./js/cart.js"></script>
+   <script src="./js/order.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id_prod": 1,
+      "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864982144816513_iphone-13-pro-max-dd-2-128-256-512-1tb.jpg",
+      "title": "Xiaomi Redmi Note 11 4GB - 64GB",
+      "version1": "128gb",
+      "version2": "64gb",
+      "version3": "32gb",
+      "version4": "8gb",
+      "price1": 1000,
+      "price2": 2000,
+      "price3": 2000,
+      "price4": 2000
+    },
+    {
+      "id_prod": 2,
+      "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/17/637831052118762354_oppo-reno7-z-dd-2.jpg",
+      "title": "samsung a6 plus",
+      "version1": "128gb",
+      "version2": "64gb",
+      "version3": "32gb",
+      "version4": "8gb",
+      "price1": 3000,
+      "price2": 2000,
+      "price3": 2000,
+      "price4": 2000
+    },
+    {
+      "id_prod": 3,
+      "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/17/637831052118762354_oppo-reno7-z-dd-2.jpg",
+      "title": "samsung a6 plusffffffffffffffffffffffff",
+      "version1": "128gb",
+      "version2": "64gb",
+      "version3": "32gb",
+      "version4": "8gb",
+      "price1": 3000,
+      "price2": 3000,
+      "price3": 2000,
+      "price4": 2000
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typczxczxczicode"
+  }
+}

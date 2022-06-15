@@ -1,0 +1,170 @@
+{
+  "posts": [
+    {
+      "id_cate": 2,
+      "id_prod": 1,
+      "id_hsx": 1,
+      "id_khoanggia": 1,
+      "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864982144816513_iphone-13-pro-max-dd-2-128-256-512-1tb.jpg",
+      "title": "Xiaomi Redmi Note 11 4GB - 64GB",
+      "version1": "128gb",
+      "version2": "64gb",
+      "version3": "32gb",
+      "version4": "8gb",
+      "price1": 1000,
+      "price2": 2000,
+      "price3": 2000,
+      "price4": 2000
+    },
+    {
+      "id_cate": 1,
+      "id_prod": 2,
+      "id_hsx": 1,
+      "id_khoanggia": 2,
+      "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/17/637831052118762354_oppo-reno7-z-dd-2.jpg",
+      "title": "samsung a6 plus",
+      "version1": "128gb",
+      "version2": "64gb",
+      "version3": "32gb",
+      "version4": "8gb",
+      "price1": 3000,
+      "price2": 2000,
+      "price3": 2000,
+      "price4": 2000
+    },
+    {
+      "id_cate": 1,
+      "id_prod": 3,
+      "id_hsx": 2,
+      "id_khoanggia": 3,
+      "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/17/637831052118762354_oppo-reno7-z-dd-2.jpg",
+      "title": "samsung a6 plusffffffffffffffffffffffff",
+      "version1": "128gb",
+      "version2": "64gb",
+      "version3": "32gb",
+      "version4": "8gb",
+      "price1": 7000,
+      "price2": 3000,
+      "price3": 2000,
+      "price4": 2000
+    },
+    {
+      "id_cate": 1,
+      "id_prod": 4,
+      "id_hsx": 3,
+      "id_khoanggia": 4,
+      "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/17/637831052118762354_oppo-reno7-z-dd-2.jpg",
+      "title": "samsung a6 plusffffffffffffffffffffffff",
+      "version1": "128gb",
+      "version2": "64gb",
+      "version3": "32gb",
+      "version4": "8gb",
+      "price1": 10000,
+      "price2": 3000,
+      "price3": 2000,
+      "price4": 2000
+    },
+    {
+      "id_cate": 3,
+      "id_prod": 5,
+      "id_hsx": 4,
+      "id_khoanggia": 2,
+      "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/17/637831052118762354_oppo-reno7-z-dd-2.jpg",
+      "title": "samsung a6 plusffffffffffffffffffffffff",
+      "version1": "128gb",
+      "version2": "64gb",
+      "version3": "32gb",
+      "version4": "8gb",
+      "price1": 3000,
+      "price2": 3000,
+      "price3": 2000,
+      "price4": 2000
+    }
+  ],
+  "category": [
+    {
+      "id_cate": 1,
+      "cate": "ĐIỆN THOẠI"
+    },
+    {
+      "id_cate": 2,
+      "cate": "MÁY TÍNH"
+    },
+    {
+      "id_cate": 3,
+      "cate": "APPLE"
+    },
+    {
+      "id_cate": 4,
+      "cate": "LINH KIỆN"
+    },
+    {
+      "id_cate": 5,
+      "cate": "MÁY CŨ"
+    },
+    {
+      "id_cate": 6,
+      "cate": "HÀNG GIA DỤNG"
+    },
+    {
+      "id_cate": 7,
+      "cate": "SIM & THẺ"
+    },
+    {
+      "id_cate": 8,
+      "cate": "KHUYẾN MÃI"
+    }
+  ],
+  "hangSanXuat": [
+    {
+      "id_hsx": 1,
+      "hsx": "SamSung"
+    },
+    {
+      "id_hsx": 2,
+      "hsx": "Apple"
+    },
+    {
+      "id_hsx": 3,
+      "hsx": "OPPO"
+    },
+    {
+      "id_hsx": 4,
+      "hsx": "Xiaomi"
+    },
+    {
+      "id_hsx": 5,
+      "hsx": "vivo"
+    },
+    {
+      "id_hsx": 6,
+      "hsx": "Nokia"
+    },
+    {
+      "id_hsx": 7,
+      "hsx": "Asus"
+    },
+    {
+      "id_hsx": 8,
+      "hsx": "Realme"
+    }
+  ],
+  "khoangGia": [
+    {
+      "id_khoanggia": 1,
+      "kg": "Dưới 3000"
+    },
+    {
+      "id_khoanggia": 2,
+      "kg": "Từ 3000-6000"
+    },
+    {
+      "id_khoanggia": 3,
+      "kg": "Từ 6000-9000"
+    },
+    {
+      "id_khoanggia": 4,
+      "kg": "Trên 9000"
+    }
+  ]
+}

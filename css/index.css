@@ -1,0 +1,303 @@
+/* header */
+
+
+.header{
+  background-color: #cd1818;
+  width: 100%;
+  margin: auto;
+  /* position: fixed; */
+  height: 100px;
+  
+  display: flex;
+ 
+  flex-direction: column;
+ 
+}
+.head-top{
+  width: 75%;
+  margin: auto;
+  
+  display: flex;
+  height: 60%;
+  justify-content: space-between;
+}
+.head-top a p{
+  color: #fff;
+}
+.head-top i{
+  color: #fff;
+}
+.hd-top-right a i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .head-top div{
+  margin: auto;
+} */
+.hd-top-left{
+  width: 65%;
+  display: flex;
+  align-items: center;
+  
+}
+.hd-top-right{
+  width: 27%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head-bottom{
+  
+  height: 30%;
+  background-color: #252525;
+  display: flex;
+}
+
+.head-bottom ul{
+  width: 75%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.head-bottom ul li a{
+  color: #fff;
+  font-weight: 500;
+}
+.search-history{
+  display: none;
+}
+.logo{
+  flex: 1;
+}
+.search{
+  display: flex;
+flex: 2;   
+}
+.se-his:hover{
+  background-color: #333;
+  color: #f8f9fa;
+}
+/* .fa-magnifying-glass{
+
+} */
+.search-input:focus ~ .search-history{
+  display: block;
+  margin-top: 40px;
+}
+.search-history{
+  background-color: #f5a623;
+  position: absolute;
+  width: 358px;
+  
+}
+.xuhuong li{
+  display: flex;
+  flex-direction: column;
+}
+.search-input{
+  position: relative;
+  
+  width: 80%;
+  height: 30px;
+}
+
+
+.fa-solid.fa-cart-arrow-down{
+  position: relative;
+  font-size: 20px;
+}
+.fa-solid.fa-cart-arrow-down b{
+  position: absolute;
+  top: -12px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  display: inline-block;
+  background: #f5a623;
+  border-radius: 100%;
+  
+}
+
+.tim{
+  width: 50px;
+  background-color: #333;
+  border: 0;
+  cursor: pointer;
+}
+.app{
+  background-color: #f8f9fa;
+  min-height: 1000px;
+}
+
+/* container */
+/* contai01 */
+.container{
+  padding-top: 15px;
+  width: 75%;
+  margin: auto;
+}
+.cont01{
+  margin: auto;
+  width: 100%;
+  height: 360px;
+  background-color: #fff;
+  display: flex;
+}
+
+
+.cont01-left{
+  width: 65%;
+  height: 100%;
+  
+}
+.cont01-right{
+  width: 35%;
+  height: 100%;
+}
+
+
+.imgban  a img{
+  height: 110px;
+  width: 100%;
+}
+.tabs {
+  height: 20%;
+
+  display: flex;
+  position: relative;
+}
+.tabs .line {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  border-radius: 15px;
+  background-color: #c23564;
+  transition: all 0.2s ease;
+}
+.tab-item {
+  min-width: 80px;
+  padding: 16px 20px 11px 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #c23564;
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 5px solid transparent;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.tab-icon {
+  font-size: 24px;
+  width: 32px;
+  position: relative;
+  top: 2px;
+}
+.tab-item:hover {
+  opacity: 1;
+  background-color: rgba(194, 53, 100, 0.05);
+  border-color: rgba(194, 53, 100, 0.1);
+}
+.tab-item.active {
+  opacity: 1;
+}
+.tab-content {
+  height: 80%;
+  
+}
+.tab-content a img{
+  height: 300px;
+  width: 90%;
+}
+.tab-pane {
+  color: #333;
+  display: none;
+}
+.tab-pane.active {
+  display: block;
+}
+.tab-pane h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+
+
+.cont02{
+  margin-top: 15px;
+  padding-top: 10px;
+  width: 100%;
+  height: 380px;
+  background-color: #f2f2f2;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-self: flex-start;
+  border-radius: 15px;
+}
+.cont02 a{
+  display: inline-block;
+
+}
+/* contaier 02 */
+.item{
+ 
+  
+  width: 16%;
+  height: 180px;
+  /* border: 1px solid #252525; */
+  /* box-shadow: 0 0 10px #666; */
+  background-color: #fff;
+  display:flex;
+  /* flex-direction: column; */
+  
+  
+}
+.item:hover {
+  box-shadow: 0 0 20px #666;
+}
+.item .khungtron{
+  width: 130px;
+  height: 130px;
+  margin: auto;
+  
+  background-color: #f4f4f4;
+  border-radius: 50%;
+ 
+
+}
+picture .pict{
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center;  */
+
+
+}
+.item p{
+  color: #252525;
+  margin-left: 50px;
+  margin-top: 15px;
+  
+}
+.khungtron .pict img{
+  width: 50px;
+  height: 50px;
+ margin-top: 35px;
+ margin-left: 35px;
+}
+
+
+
+.sli{
+  color: #252525;
+}
